@@ -1,0 +1,8 @@
+Origin: Acreson's Cydia for Electra/Chimera/Chimera1n Modify Repo
+Label:Acreson's Cydia for Electra/Chimera/Chimera1n Modify Repo
+Suite: stable
+Version: 1.0
+Codename: Acreson
+Architecture: iphoneos-arm
+Components: main
+Description: 提供Cydia for Electra/Chimera/Chimera1n 用户使用
