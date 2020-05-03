@@ -1,22 +1,22 @@
 Package: acreson.cydia.coolstar
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Acreson <342080124@qq.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: ./debs/acreson.cydia.coolstar_1.0_iphoneos-arm.deb
-Size: 24206
-MD5sum: 1ad54e7777bda41f6e7c0ff467d9185f
-SHA1: ee82721818b7307d974c5375e550fb6faef41e0c
-SHA256: 27deea0afff5f2ad1d68d7addab0cc1063fcd6db53c5b88aa947b771fd289f7d
+Filename: ./debs/acreson.cydia.coolstar_1.1_iphoneos-arm.deb
+Size: 16228
+MD5sum: 2be3f65c804893eca105a804bc194fa6
+SHA1: df141e643a6dc00f43bc1e64a1510e3bc5341528
+SHA256: 479784315d7b86a0ba87208595a3a13dc77498b7319d0d3d31e6d0d0d521788d
 Section: Packages
 Description: graphical iPhone front-end for APT 修改版本提供coolstar越狱环境所用的专用Cydia的补丁
 Author: Acreson <342080124@qq.com>
 Depiction: 修改版本提供coolstar越狱环境所用的专用Cydia的补丁
 Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Electra/Chimera/Chimera1n 补丁
+Name: Cydia Works 补丁
 
 Package: cydia-dark
 Version: 1.9.4
