@@ -7,10 +7,10 @@ Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwint
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
 Filename: ./debs/acreson.cydia.coolstar_1.1_iphoneos-arm.deb
-Size: 16228
-MD5sum: 2be3f65c804893eca105a804bc194fa6
-SHA1: df141e643a6dc00f43bc1e64a1510e3bc5341528
-SHA256: 479784315d7b86a0ba87208595a3a13dc77498b7319d0d3d31e6d0d0d521788d
+Size: 16226
+MD5sum: b790daebe7c0eb257ffa256fc94f9f71
+SHA1: c4e1dad70fbd1a31fae3151368c119186e9a424e
+SHA256: 6fe1fbf4df3d8947690de5152c66dc714a60ce84039a4abc6e061ccb991a9612
 Section: Packages
 Description: graphical iPhone front-end for APT 修改版本提供coolstar越狱环境所用的专用Cydia的补丁
 Author: Acreson <342080124@qq.com>
@@ -42,7 +42,7 @@ Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia for Electra/Chimera/Chimera1n
 
 Package: cydia-lproj
-Version: 1.9.4
+Version: 1.9.3~chimera5
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 712
@@ -50,18 +50,18 @@ Depends: cydia
 Conflicts: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
-Filename: ./debs/cydia-lproj_1.9.4_iphoneos-arm.deb
-Size: 76390
-MD5sum: 873792948bc40271f267f200b01cc41b
-SHA1: 8eb01a4607e6d409bc7f90a6e7469d28e0c3df92
-SHA256: 7358376215ccb5300ffaf70a806b302c50db8a7c616ff3ce7414bbb67486084f
-Section: Packages
+Filename: ./debs/cydia-lproj_1.9.3_chimera5_iphoneos-arm.deb
+Size: 67068
+MD5sum: 8bbbc811e0facd68428880dda7bcfcc7
+SHA1: 73a9f4ab16262a3027ca3d0d4879919734790018
+SHA256: 6b96709cd263d51fd474c0e878a637b90aa1019dbd0571847b6fa509f615cf9b
+Section: Acreson-依赖(Depends)
 Priority: required
-Description: Cydia的语言和翻译
+Description: languages and translations for Cydia。Cydia的语言和翻译
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Icon: file:///Applications/Cydia.app/Sections/Addons.png
-Name: Cydia 语言包
+Name: Cydia Translations
 
 Package: org.thebigboss.repo.icons
 Version: 1.2
