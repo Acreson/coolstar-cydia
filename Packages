@@ -5,10 +5,10 @@ Maintainer: Acreson <342080124@qq.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=11.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Filename: ./debs/acreson.cydia.chimera1ncydia_1.2_iphoneos-arm.deb
-Size: 16252
-MD5sum: 795fed86f62779520cc9227313bd6cde
-SHA1: 4d81a02c3c34e9c0764534ba26fc5353aa2f639f
-SHA256: c2d2965741baeeb250ed83647c14916264bb913d2554640c94a4ad0323f0f33a
+Size: 16248
+MD5sum: 86803595d6789d1e4b3039a2dd205cf1
+SHA1: b9c379370e46d5ea365f6ebe5c208f8c89de1a0b
+SHA256: bbdbf34b34acdc484ca17adaf01df0d87f0a5d108734a856a6cea56930e2f37d
 Section: Packages
 Description: 先安装Cydia，后安装这个补丁，然后会提示你重启设备。
 Author: Acreson <342080124@qq.com>
