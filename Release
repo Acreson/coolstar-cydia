@@ -1,8 +1,8 @@
-Origin:Cydia for Electra/Chimera/Chimera1n 「Acreson」
-Label:Cydia for Electra/Chimera/Chimera1n 「Acreson」
+Origin:Cydia for Chimera/Chimera1n 「Acreson」
+Label:Cydia for Chimera/Chimera1n 「Acreson」
 Suite: stable
 Version: 1.0
 Codename: Acreson
 Architecture: iphoneos-arm
 Components: main
-Description: 提供Cydia for Electra/Chimera/Chimera1n 用户使用
+Description: 魔改Cydia for Chimera/Chimera1n 
