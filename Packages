@@ -1,21 +1,20 @@
 Package: acreson.cydia.chimera1ncydia
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Acreson <342080124@qq.com>
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=12.0)
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=11.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, zodttd, cydia-uni, cydia-gui
-Filename: ./debs/acreson.cydia.chimera1ncydia_1.1_iphoneos-arm.deb
-Size: 16436
-MD5sum: f1debc1774f12c33b6c73938676531b8
-SHA1: 3e6252057cb80678eb526447f458bf43539d6412
-SHA256: 0b600c4e8595f27aa6cedf0fe56387a62ae60dbfa3a291ce70b8a8be2e1ffbab
+Filename: ./debs/acreson.cydia.chimera1ncydia_1.2_iphoneos-arm.deb
+Size: 16252
+MD5sum: 795fed86f62779520cc9227313bd6cde
+SHA1: 4d81a02c3c34e9c0764534ba26fc5353aa2f639f
+SHA256: c2d2965741baeeb250ed83647c14916264bb913d2554640c94a4ad0323f0f33a
 Section: Packages
 Description: 先安装Cydia，后安装这个补丁，然后会提示你重启设备。
 Author: Acreson <342080124@qq.com>
 Depiction: 修改版本提供coolstar越狱环境所用的专用Cydia的补丁
 Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Works 补丁
+Name: Chimera1n Cydia Work Patch
 
 Package: cydia-dark
 Version: 1.9.3~chimera5
