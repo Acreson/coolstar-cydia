@@ -1,45 +1,44 @@
-Package: acreson.cydia.coolstar
+Package: acreson.cydia.chimera1ncydia
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Acreson <342080124@qq.com>
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=12.0)
 Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: ./debs/acreson.cydia.coolstar_1.1_iphoneos-arm.deb
-Size: 16226
-MD5sum: b790daebe7c0eb257ffa256fc94f9f71
-SHA1: c4e1dad70fbd1a31fae3151368c119186e9a424e
-SHA256: 6fe1fbf4df3d8947690de5152c66dc714a60ce84039a4abc6e061ccb991a9612
+Conflicts: bigboss, zodttd, cydia-uni, cydia-gui
+Filename: ./debs/acreson.cydia.chimera1ncydia_1.1_iphoneos-arm.deb
+Size: 16436
+MD5sum: f1debc1774f12c33b6c73938676531b8
+SHA1: 3e6252057cb80678eb526447f458bf43539d6412
+SHA256: 0b600c4e8595f27aa6cedf0fe56387a62ae60dbfa3a291ce70b8a8be2e1ffbab
 Section: Packages
-Description: graphical iPhone front-end for APT 修改版本提供coolstar越狱环境所用的专用Cydia的补丁
+Description: 先安装Cydia，后安装这个补丁，然后会提示你重启设备。
 Author: Acreson <342080124@qq.com>
 Depiction: 修改版本提供coolstar越狱环境所用的专用Cydia的补丁
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Works 补丁
 
 Package: cydia-dark
-Version: 1.9.4
+Version: 1.9.3~chimera5
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 9416
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia, acreson.cydia.coolstar
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: ./debs/cydia-dark_1.9.4_iphoneos-arm.deb
-Size: 1755938
-MD5sum: 770f5e48c6c09869f76790a419bcb2ce
-SHA1: cb8638090fbe487baadd02400bb8462d893bbf08
-SHA256: 68b653906416cbe8bb37917e7f9b02eb20c4b35a480b22e3fe44e4ce4bcfa890
-Section: Packages
+Filename: ./debs/cydia-dark_1.9.3~chimera5.deb
+Size: 1366944
+MD5sum: aecb5c5a8717db0a750a6c2a9209e81f
+SHA1: 0765ca536180f7c7587d6198e925de9bb0038d6d
+SHA256: d6a902c38b5a3c5c4c216cb158c9181ce114ca555ba211527122c8ff3df8d513
+Section: Packaging
 Priority: optional
 Description: graphical iPhone front-end for APT
 Tag: purpose::uikit, role::enduser
-Author: Diatrus @ Acreson
+Author: Diatrus <me@diatr.us>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Electra/Chimera/Chimera1n
+Name: Cydia for Chimera/Electra
 
 Package: cydia-lproj
 Version: 1.9.3~chimera5
