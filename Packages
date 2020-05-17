@@ -1,14 +1,14 @@
 Package: acreson.cydia.chimera1ncydia
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: Acreson <342080124@qq.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=11.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Filename: ./debs/acreson.cydia.chimera1ncydia_1.2_iphoneos-arm.deb
-Size: 16248
-MD5sum: 86803595d6789d1e4b3039a2dd205cf1
-SHA1: b9c379370e46d5ea365f6ebe5c208f8c89de1a0b
-SHA256: bbdbf34b34acdc484ca17adaf01df0d87f0a5d108734a856a6cea56930e2f37d
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia-dark, cydia-lproj
+Filename: ./debs/acreson.cydia.chimera1ncydia_1.3_iphoneos-arm.deb
+Size: 16256
+MD5sum: 03f11f118888ec2a66cc29b69dd1106d
+SHA1: 58ee212a382a4156484ea0f049f2eb41ff6dcefd
+SHA256: ad2a3b81e423f611c6963f6a8d63a4ca4c64608f14a63677a1459de78ba1acd0
 Section: Packages
 Description: 先安装Cydia，后安装这个补丁，然后会提示你重启设备。
 Author: Acreson <342080124@qq.com>
@@ -48,12 +48,12 @@ Depends: cydia
 Conflicts: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
-Filename: ./debs/cydia-lproj_1.9.3_chimera5_iphoneos-arm.deb
-Size: 67068
-MD5sum: 8bbbc811e0facd68428880dda7bcfcc7
-SHA1: 73a9f4ab16262a3027ca3d0d4879919734790018
-SHA256: 6b96709cd263d51fd474c0e878a637b90aa1019dbd0571847b6fa509f615cf9b
-Section: Acreson-依赖(Depends)
+Filename: ./debs/cydia-lproj_1.9.3~chimera5_iphoneos-arm.deb
+Size: 76404
+MD5sum: 41028e68a08d39ec827d88f6e7bfef11
+SHA1: a6d7a9585f1451e4c23c408d1dbb709b9fe7f899
+SHA256: afa905daad1b1d8e22172b0dae4d701e5771ee7813a2898778785e0abf03fd83
+Section: Packages
 Priority: required
 Description: languages and translations for Cydia。Cydia的语言和翻译
 Author: Jay Freeman (saurik) <saurik@saurik.com>
